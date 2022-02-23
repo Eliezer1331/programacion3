@@ -31,7 +31,6 @@ namespace primer_programa
 
             EdadTextBox.Text = DevolverEdad(fecha).ToString();
         }
-
         private int DevolverEdad(DateTime _fechaNacimiento)
         {
             DateTime fechaNacimiento = _fechaNacimiento;
@@ -47,12 +46,9 @@ namespace primer_programa
             {
                 edad = fechaActual.Year - fechaNacimiento.Year;
                 if(fechaNacimiento.Month > fechaActual.Month)
-                {
-                   
-                  --edad;
-                     
+                {   
+                  --edad;    
                 }
-
             }
             return edad;
         }

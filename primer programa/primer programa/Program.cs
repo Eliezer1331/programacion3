@@ -16,7 +16,7 @@ namespace primer_programa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new funcionesfecha());
+            Application.Run(new Arreglos());
         }
     }
 }

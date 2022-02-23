@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arreglos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arreglos.Designer.cs">
+      <DependentUpon>Arreglos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funcionesAsincronas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcionesAsincronas.Designer.cs">
+      <DependentUpon>funcionesAsincronas.cs</DependentUpon>
     </Compile>
     <Compile Include="funcionesdetexto.cs">
       <SubType>Form</SubType>
@@ -66,8 +78,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Arreglos.resx">
+      <DependentUpon>Arreglos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funcionesAsincronas.resx">
+      <DependentUpon>funcionesAsincronas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="funcionesdetexto.resx">
       <DependentUpon>funcionesdetexto.cs</DependentUpon>
